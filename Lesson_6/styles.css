@@ -1,0 +1,73 @@
+/* Custom CSS  */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #4d2d06;
+    font-family: Georgia, Times, serif;
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+}
+
+/* ID selectors */
+#monkey {
+    background: #fff;
+    font-family: Verdana, Arial, sans-serif;
+    color: #4d2d06;
+}
+
+#donkey {
+    background: green;
+    font-family: Monaco, monospace;
+}
+
+/* Class selectors */
+.primary-box {
+    background: #000;
+    color: #fff;
+}
+
+.secondary-box {
+    background: #fff;
+    color: #000;
+}
+
+.inside-box {
+    margin: 20px 0;
+    padding: 10px;
+    background: #94efff;
+    color: #555;
+}
+
+/* Descendant selectors */
+.primary-box h2 {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.primary-box p em {
+    color: #32b0ff;
+}
+
+.secondary-box p {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.secondary-box em {
+    color: #fc3fff;
+}
+
+/* Grouping selectors */
+
+.primary-box, .secondary-box {
+    font-size: 24px;
+    margin: 0 0 10px;
+    padding: 10px;
+}
+
+.inside-box h3, .inside-box p {
+    font-size: 20px;
+}
